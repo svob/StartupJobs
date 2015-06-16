@@ -15,6 +15,14 @@ application:
 		*: App\*Module\Presenters\*Presenter
 
 
+database:
+        dsn: 'mysql:host=127.0.0.1;dbname=quickstart'
+        user: root
+        password: root
+        options:
+                lazy: yes
+
+
 session:
 	expiration: 14 days
 
